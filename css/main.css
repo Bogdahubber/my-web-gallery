@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p{
+    background: white;
+}
+
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 10px;
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+
+}
+
+.photo:hover{
+    transform: rotate(3deg) scale(1.1);
+    box-shadow:  0 0 20px 1px rgb(0, 0, 0, 1)
+
+}
+
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.photo1{
+    background-image: url(../img/01.png);
+}
+
+.photo2{
+    background-image: url(../img/010.png);
+}
+
+.photo3{
+    background-image: url(../img/011.png);
+}
+
+.photo4{
+    background-image: url(../img/05.png);
+}
+
+.photo5{
+    background-image: url(../img/09.png);
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto)
+}
